@@ -13,6 +13,7 @@ enum ConnectionStatus {
   disconnecting,
   connecting,
   connected,
+  memory,
 }
 
 class AppData with ChangeNotifier {

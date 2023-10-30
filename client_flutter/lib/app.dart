@@ -1,3 +1,4 @@
+import 'package:client_flutter/layout_memory.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:provider/provider.dart';
 import 'layout_connected.dart';
@@ -29,7 +30,7 @@ class AppState extends State<App> {
       case ConnectionStatus.connected:
         return const LayoutConnected();
       default:
-        return const LayoutDisconnected();
+        return const LayoutMemory();
     }
   }
 
