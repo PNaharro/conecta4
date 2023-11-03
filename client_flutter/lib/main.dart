@@ -6,13 +6,12 @@ import 'app_data.dart';
 import 'app.dart';
 
 void main() async {
-  // For Linux, macOS and Windows, initialize WindowManager
+  // For Linux, macOS, and Windows, initialize WindowManager
   try {
     if (Platform.isLinux || Platform.isMacOS || Platform.isWindows) {
       WidgetsFlutterBinding.ensureInitialized();
       await WindowManager.instance.ensureInitialized();
       windowManager.waitUntilReadyToShow().then(showWindow);
-      //windowManager.setSize(const Size(800.0, 600.0));
     }
   } catch (e) {
     // ignore: avoid_print

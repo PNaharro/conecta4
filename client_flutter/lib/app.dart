@@ -1,13 +1,12 @@
-import 'package:client_flutter/layout_memory.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:provider/provider.dart';
+import 'app_data.dart';
 import 'layout_connected.dart';
 import 'layout_connecting.dart';
 import 'layout_disconnected.dart';
 import 'layout_disconnecting.dart';
-import 'app_data.dart';
+import 'memory_game.dart'; // Importa el juego de memoria
 
-// Main application widget
 class App extends StatefulWidget {
   const App({Key? key}) : super(key: key);
 
@@ -15,12 +14,13 @@ class App extends StatefulWidget {
   AppState createState() => AppState();
 }
 
-// Main application state
 class AppState extends State<App> {
-  // Definir el contingut del widget 'App'
-
   Widget _setLayout(BuildContext context) {
     AppData appData = Provider.of<AppData>(context);
+
+    if (appData.isMemoryGame) {
+      return MemoryGameScreen(); // Juego de memoria en línea
+    }
 
     switch (appData.connectionStatus) {
       case ConnectionStatus.disconnecting:
@@ -30,13 +30,12 @@ class AppState extends State<App> {
       case ConnectionStatus.connected:
         return const LayoutConnected();
       default:
-        return const LayoutMemory();
+        return const LayoutDisconnected();
     }
   }
 
   @override
   Widget build(BuildContext context) {
-    // Farem servir la base 'Cupertino'
     return CupertinoApp(
       debugShowCheckedModeBanner: false,
       theme: const CupertinoThemeData(brightness: Brightness.light),
