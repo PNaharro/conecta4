@@ -64,7 +64,7 @@
                   <Font size="24.0" />
                </font>
             </Text>
-            <Label fx:id="jugandor1" layoutX="119.0" layoutY="15.0" text="Label" AnchorPane.leftAnchor="119.0" AnchorPane.topAnchor="15.0">
+            <Label fx:id="jugando" layoutX="119.0" layoutY="15.0" text="Label" AnchorPane.leftAnchor="119.0" AnchorPane.topAnchor="15.0">
                <font>
                   <Font size="24.0" />
                </font>
@@ -74,7 +74,7 @@
                   <Font size="24.0" />
                </font>
             </Text>
-            <Label fx:id="jugador2" layoutX="689.0" layoutY="15.0" prefHeight="35.0" prefWidth="62.0" text="Label" AnchorPane.leftAnchor="689.0" AnchorPane.topAnchor="15.0">
+            <Label fx:id="esperando" layoutX="689.0" layoutY="15.0" prefHeight="35.0" prefWidth="62.0" text="Label" AnchorPane.leftAnchor="689.0" AnchorPane.topAnchor="15.0">
                <font>
                   <Font size="24.0" />
                </font>
