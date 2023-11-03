@@ -25,9 +25,8 @@
          <children>
             <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="60.0">
                <children>
-                  <GridPane prefHeight="268.0" prefWidth="481.0">
+                  <GridPane prefHeight="345.0" prefWidth="746.0">
                     <columnConstraints>
-                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -40,26 +39,22 @@
                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                        <ImageView fx:id="imagen00" fitHeight="81.0" fitWidth="178.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fx:id="imagen01" fitHeight="79.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+                        <ImageView fx:id="imagen02" fitHeight="83.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" />
+                        <ImageView fx:id="imagen03" fitHeight="81.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" />
+                        <ImageView fx:id="imagen10" fitHeight="81.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1" />
+                        <ImageView fx:id="imagen20" fitHeight="82.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2" />
+                        <ImageView fx:id="imagen30" fitHeight="78.0" fitWidth="177.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3" />
+                        <ImageView fx:id="imagen11" fitHeight="83.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <ImageView fx:id="imagen21" fitHeight="83.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <ImageView fx:id="imagen31" fitHeight="81.0" fitWidth="178.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <ImageView fx:id="imagen12" fitHeight="83.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <ImageView fx:id="imagen13" fitHeight="82.0" fitWidth="178.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                        <ImageView fx:id="imagen22" fitHeight="83.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <ImageView fx:id="imagen23" fitHeight="83.0" fitWidth="177.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                        <ImageView fx:id="imagen32" fitHeight="80.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                        <ImageView fx:id="imagen33" fitHeight="83.0" fitWidth="177.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="3" />
                      </children>
                   </GridPane>
                </children>
@@ -69,19 +64,19 @@
                   <Font size="24.0" />
                </font>
             </Text>
-            <Label fx:id="jugando" layoutX="138.0" layoutY="20.0" text="Label" AnchorPane.leftAnchor="125.0" AnchorPane.topAnchor="17.0">
+            <Label fx:id="jugandor1" layoutX="119.0" layoutY="15.0" text="Label" AnchorPane.leftAnchor="119.0" AnchorPane.topAnchor="15.0">
                <font>
-                  <Font size="20.0" />
+                  <Font size="24.0" />
                </font>
             </Label>
-            <Text layoutX="348.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="En espera" AnchorPane.leftAnchor="319.0" AnchorPane.topAnchor="15.0">
+            <Text layoutX="579.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="En espera" AnchorPane.leftAnchor="579.0" AnchorPane.topAnchor="16.1015625">
                <font>
                   <Font size="24.0" />
                </font>
             </Text>
-            <Label fx:id="esperando" layoutX="448.0" layoutY="15.0" prefHeight="30.0" prefWidth="54.0" text="Label" AnchorPane.leftAnchor="441.0" AnchorPane.topAnchor="13.0">
+            <Label fx:id="jugador2" layoutX="689.0" layoutY="15.0" prefHeight="35.0" prefWidth="62.0" text="Label" AnchorPane.leftAnchor="689.0" AnchorPane.topAnchor="15.0">
                <font>
-                  <Font size="20.0" />
+                  <Font size="24.0" />
                </font>
             </Label>
          </children>
